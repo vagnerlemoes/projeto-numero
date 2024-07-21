@@ -25,7 +25,7 @@ function verificarChute() {
         messageElement.style.color = "orange";
         document.getElementById("chuteInput").value = "";
     } else {
-        messageElement.textContent = "Mas tu é GAY";
+        messageElement.textContent = "Parabéns! Você acertou o número secreto";
         messageElement.style.color = "green";
         alert("Acertou!!!\n Você é bom mesmo");
         
