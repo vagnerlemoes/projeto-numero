@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descubra o número</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Descubra o Número Secreto</h1>
-    </header>
-    <main>
-        <img src="./img/bg.png" alt="">
-        <input type="number">
-    </main>
-    <footer>
-        <p>Desenvolvido por Vagner Lemões e Erick Barty.</p>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Descubra o número</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Descubra o Número Secreto</h1>
+        </header>
+    
+        <main>
+            <div class="game-container">
+                <input type="number" id="chuteInput" placeholder="Digite seu palpite">
+                <button onclick="verificarChute()">Enviar</button>
+                <div class="message" id="message"></div>
+            </div>
+                <img class="robot" src="./img/bg.png">
+        </main>
+    
+        <footer>
+            <p>Desenvolvido por Vagner Lemões e Erick Barty.</p>
+        </footer>
+
+    <script src="jogo.js" defer></script>
+    </body>
 </html>
