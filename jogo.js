@@ -27,7 +27,7 @@ function verificarChute() {
     } else {
         messageElement.textContent = "Parabéns! Você acertou o número secreto";
         messageElement.style.color = "green";
-        alert("Acertou!!!\n Você é bom mesmo");
+        alert("Acertou!!!\nVocê é bom mesmo");
         
     }
 }
