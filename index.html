@@ -3,20 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Descubra o número</title>
+        <title>Game Number</title>
         <link rel="stylesheet" href="style.css">
     </head>
     
     <body>
         <header>
-            <h1>Descubra o Número Secreto</h1>
+            <h1>Game Number</h1>
+            <h2>Descubra o número secreto!</h2>
         </header>
     
         <main>
             <div class="game-container">
-                <label>Escolha um número de 1 a 1000 <br></label>
-                <input  type="number" id="chuteInput" placeholder="Digite seu palpite">
-                <button onclick="verificarChute()">Enviar</button>
+                <label>Escolha um número de 1 a 1000. <br></label>
+                <input  type="number" id="chuteInput" placeholder="Digite seu chute">
+                <button onclick="verificarChute()">Chutar</button>
                 <div class="message" id="message"> </div>
             </div>
                 <img class="imagem_numeros" src="./img/imagem_numeros.jpg" alt="imagem de numeros">
@@ -26,6 +27,6 @@
             <p>Desenvolvido por Vagner Lemões e Erick Barty.</p>
         </footer>
 
-    <script src="jogo.js" defer></script>
+        <script src="jogo.js"></script>
     </body>
 </html>

@@ -4,14 +4,23 @@ body {
     color: white;
     margin: 0;
     padding: 0;
+}
+
+
+header {
+    background-color: #121312;
+    color: blueviolet;
+    font-size: 20px;
+    padding: 1%;
+}
+
+
 
 
 .game-container {
     font-size: 30px;
-    color: rgb(219, 198, 202);
+    color: bisque;
     width: 100%;
-
-
 }
 
 
@@ -20,6 +29,12 @@ input {
     width: 600px;
     font-size: 35px;
     background-color: bisque;
+}
+
+input:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+    cursor: pointer;
 }
 
 button {
@@ -35,11 +50,12 @@ button:hover {
     cursor: pointer;
 }
 
-
 .imagem_numeros {
-    width: 60%;
-
+    padding: 3% 0 0 0;
 }
 
-
+footer {
+    background-color: #121312;
+    color: aqua;
+    padding: 1%;
 }
